@@ -25,6 +25,7 @@
   width: 10vw;
   height: 6vh;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 #main-imagecontainer {
