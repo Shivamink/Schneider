@@ -1,0 +1,38 @@
+<div>
+  <button id="goback" routerLink="/HomeComponent">< Go Back</button>
+  <div id="content-container">
+    <h1 id="content-title">Prismaset</h1>
+    <iframe
+      #iFrame
+      src=""
+      id="api-frame"
+      allowfullscreen
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+      width="640"
+      height="480"
+      frameborder="0"
+      style="border: 1px solid black"
+    ></iframe>
+    <div id="button-container">
+      <button class="content-button" #btn1 (click)="setAnimation(0)">
+        <img src="../../assets/imageicon1.png" />
+        <br />
+        <p class="hover-underline-animation">IP ratings</p>
+      </button>
+      <button class="content-button" #btn2 (click)="setAnimation(1)">
+        <img src="../../assets/imageicon2.png" />
+        <br />
+        <p class="hover-underline-animation">Frame design</p>
+      </button>
+      <button class="content-button" #btn3 (click)="setAnimation(2)">
+        <img src="../../assets/imageicon3.png" />
+        <br />
+        <p class="hover-underline-animation">
+          Frame design <br />
+          & modularity
+        </p>
+      </button>
+    </div>
+  </div>
+</div>
