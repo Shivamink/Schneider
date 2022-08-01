@@ -27,36 +27,28 @@
 }
 
 #button-container {
-  /* border: 1px solid black;
-  background-color: white; */
   border: none;
   width: 100vw;
   height: 15vh;
   border-radius: 4px;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
-  /* margin-top: 5vh;
-  margin-bottom: 5vh; */
   position: absolute;
-  top: 80%;
+  top: 70%;
+  text-align: center;
 }
 
 .content-button {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
   border: 1px solid gray;
   background-color: white;
   border-radius: 3px;
   position: relative;
   cursor: pointer;
-  padding-left: 1.2vw;
-  padding-right: 1.2vw;
-  /* padding: 0.5vw; */
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  margin-left: 0.4vw;
+  margin-right: 0.4vw;
   margin-bottom: 12px;
 }
 
