@@ -6,7 +6,8 @@ import {
   ViewChild,
 } from '@angular/core';
 
-const UID = '6a36faa6ed404bb6b6abc5d9d2d5213e';
+// const UID = '6a36faa6ed404bb6b6abc5d9d2d5213e';
+const UID = '0ee6d2d451af4e44907f9be04f46c8b1'; //New UID
 
 declare const Sketchfab: any;
 
